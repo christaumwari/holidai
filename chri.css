@@ -1,0 +1,228 @@
+#head{
+	background-color:cyan;
+	height: 7%;
+	width: 40%;
+	padding-right: 943px;
+	padding-left: 423px;
+	margin-left: 245px;
+	position: fixed;
+	z-index: 3;
+	border-radius: 30px;
+}
+body{
+	overflow-x: hidden;
+}
+.image>img{
+	height:20% ;
+	width: 90%;
+	position: relative;
+	left: 300px;
+	top: 10%;
+	bottom: 16px;
+	margin-left: -52px;
+	border-radius: 30px;
+
+}
+#lgi{
+	background-image: url("xcul lo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:170px ;
+	width: 12%;
+	position: absolute;
+	top: 18px;
+	border-radius: 30px;
+}
+
+#links{
+	background-color: darkcyan;
+width: 15%;
+height: 93%;
+position: absolute;
+top: 200px;
+border-radius: 30px;
+}
+#links a{
+	text-decoration: none;
+	color: black;
+	size: 17PX;
+}
+#links li{
+	list-style: none;
+	padding: 60px;
+
+}
+#links hr{
+	background-color: #000;
+
+}
+#phot>img{
+	height: 40%;
+	width: 40%;
+	margin-left: 10px;
+	border-radius: 30px;
+	
+}
+.pal{
+	text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    top:-300px ;
+    left: 800px;
+    margin-right: 1000px;
+    color: black;
+    height: 40px;
+   text-align: right;
+
+}
+#body{
+	 background-color: darkcyan;
+	 border-radius: 30px;
+}
+#servi{
+	background-color: darkcyan;
+	border-radius: 30px;
+}
+#alc{
+	background-color:cyan ;
+	width: 100%;
+	height: 305px;
+	border-radius: 30px;
+	margin-bottom: 30px;
+}
+.vi{
+	height: 100px;
+	width: 20%;
+	margin: auto;
+	float: left;
+	border-radius: 18px;
+	margin-top: 80px;
+	margin-left: 143px;
+}
+#it{
+	width: 20%;
+	height: 167px;
+	background-image: url("best.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#ny{
+	width: 20%;
+	height: 167px;
+	background-image: url("award.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#yo{
+		width: 20%;
+	height: 167px;
+	background-image: url("cul.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.titl{
+	  font-weight: bold;
+    float: left;
+    margin-top: -40px;
+    font-size: 15px;
+}
+#cont{
+	background-color: darkcyan;
+	height: 400px;
+	width: 100%;
+	border-radius: 30px;
+}
+.sec{
+	background-color: cyan;
+	height: 160px;
+	width: 98%;
+	border-radius: 30px;
+	margin-left: 20px;
+}
+.pay{
+	background-color: gray;
+	height: 1900px;
+	width: 20%;
+	margin: auto;
+	float: left;
+	border-radius: 18px;
+	margin-top: 1px;
+	margin-left: 209px;
+}
+#be{width: 220px;
+	height: 159px;
+	background-image: url(bnr.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#ist{
+	width: 220px;
+	height: 159px;
+	background-image: url(credit.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#my{
+	width: 220px;
+	height: 159px;
+	background-image: url(vis.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#seco{
+	background-color: cyan;
+	height: 100px;
+	width: 100%;
+	margin-top: 90px;
+	border-radius: 30px;
+}
+#last{
+	height: 550px;
+	width: 100%;
+	background-color: darkcyan;
+	border-radius: 40px;
+}
+.bett{
+	height: 500px;
+	width: 40%;
+	background-color: cyan;
+	border-radius: 30px;
+	margin-left: 700px;
+
+}
+.prof{
+	background-color: gray;
+	height: 160px;
+	width: 10%;
+	margin-top: -500px;
+	margin-left: 300px;
+	border-radius: 20px;
+}
+#pic{
+	background-image: url("prof.jpg");
+	background-size: cover;
+}
+#label{
+	position: relative;
+	margin-left: 100px;
+	margin-top: 500;
+}
+.also{
+	background-color: gray;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 20px;
+}
+@media only screen and (max-width: 1000px){
+	#head{
+	background-color:skyblue;
+	height: 7%;
+	width: 20%;
+	padding-right: 503px;
+	padding-left: 423px;
+	margin-left: 245px;
+	position: fixed;
+	z-index: 3;
+	border-radius: 30px;
+}
+}
